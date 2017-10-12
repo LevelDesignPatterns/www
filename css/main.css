@@ -60,3 +60,10 @@ a:hover{
 .container {
     /*padding: 1vw;*/
 }
+
+table {
+    width: 100%;
+}
+td {
+    /*border: 1px solid grey;*/
+}
