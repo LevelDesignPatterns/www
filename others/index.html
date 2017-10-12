@@ -1,0 +1,20 @@
+---
+layout: default
+title: others
+---
+
+<ul>
+	{% for source in site.data.books %}
+	<li>
+		{{source.authors}} ({{source.year}}) <em>{{source.title}}</em> {{source.publisher}} <a href = "{{source.url}}">{{source.url}}</a>
+	</li>
+	{% endfor %}
+</ul>
+
+<ul>
+	{% for source in site.data.websites %}
+	<li>
+		 <a href = "{{source.url}}">{{source.title}}</a>
+	</li>
+	{% endfor %}
+</ul>

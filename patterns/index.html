@@ -1,0 +1,22 @@
+---
+layout: default
+title: patterns
+---
+
+{% for pattern in site.data.patterns %}
+<p>
+	<h3>{{pattern.name}}</h3>
+	<p>{{pattern.description}}</p>
+	<p><b>Examples:</b>{{pattern.examples}}</p>
+	<p><b>Aliases:</b>{{pattern.aliases}}</p>
+	<p><b>Classes:</b>{{pattern.classes}}</p>
+	<p><b>Principles:</b>{{pattern.principles}}</p>
+	<!-- <p><b>Submiter:</b>{{pattern.authors}}</p> -->
+	<p><b>Date:</b>{{pattern.date}}</p>
+	<p><b>Source:</b>{{pattern.source}}</p>
+	<p>{{pattern.discussion}}</p>
+	<p><b>Link:</b>{{pattern.url}}</p>
+	<p><img src = "{{pattern.image}}"></p>
+	<p><b>Video:</b>{{pattern.video}}</p>
+</p>
+{% endfor %}
