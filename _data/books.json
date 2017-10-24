@@ -1,21 +1,16 @@
 [
     {
-        "authors":"Parlett, D.",
-        "year": "1999",
-        "title": "The Oxford History of Board Games",
-        "url": "http://www.parlettgames.uk/"
-    },
-
-    {
-        "authors":"Sackson, S.",
-        "year": "1969",
-        "title": "A Gamut of Games",
-        "url": "https://en.wikipedia.org/wiki/A_Gamut_of_Games"
-    },
-
-    {
         "authors":"Bjork, S. & Holopainer, J.",
         "year": "2014",
         "title": "Patterns in Game Design"
+        "url": "tbd"
+    },
+
+    {
+        "authors":"Kenneth M. Hullett",
+        "year": "2012",
+        "title": "THE SCIENCE OF LEVEL DESIGN: DESIGN PATTERNS AND ANALYSIS OF PLAYER BEHAVIOR IN FIRST-PERSON SHOOTER LEVELS"
+        "url": "https://users.soe.ucsc.edu/~ejw/dissertations/Ken-Hullett-dissertation.pdf"
     }
+
 ]
