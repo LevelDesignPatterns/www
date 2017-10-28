@@ -4,18 +4,13 @@ title: patterns
 ---
 
 <br />
-<br />
-
 
 {% for pattern in site.data.patterns %}
-
 	<p><h3>{{pattern.name}}</h3>
 	<br />{{pattern.description}}</p>
 {% endfor %}
 
-
 {% for pattern in site.data.patterns %}
-
 <table>
 	<tr>
 		<td colspan = 2><h3>{{pattern.name}}</h3></td>
@@ -36,6 +31,4 @@ title: patterns
 	<tr><td colspan = 2><p><img src = "{{pattern.image}}"></p></td></tr>
 	<tr><td><p><b>Video:</b></p></td><td><p>{{pattern.video}}</p></td></tr>
 </table>
-
-
 {% endfor %}
