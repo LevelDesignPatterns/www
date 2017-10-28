@@ -49,6 +49,7 @@
         "classes":      "Spatial",
         "genres":       "FPS, Platformer, RPG, (All?)",
 
+        "discussion":   "",
         "url":          "",
         "image":        "",
         "video":        "",
@@ -143,8 +144,8 @@
         "description":  "",
         "examples":     "",
         "motivation":   "",
-        "principles":   "",
-        "aliases":      "",
+        "principles":   "Flow",
+        "aliases":      "Mosh Pit",
         "classes":      "Spatial, Aspect, Principle",
         "genres":       "FPS, Team DM, Capture the Flag, King of the Hill",
 
