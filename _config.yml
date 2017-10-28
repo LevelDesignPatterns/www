@@ -34,12 +34,6 @@ exclude:
   - Gemfile.lock
 
 collections:
-    worksheets:
+    patterns:
         output: true
-        permalink: /worksheets/:path/
-    lectures:
-        output: true
-        permalink: /lectures/:path/
-    tutorials:
-        output: true
-        permalink: /tutorials/:path/
+        permalink: /patterns/:path/

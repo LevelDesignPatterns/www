@@ -3,10 +3,18 @@ layout: default
 title: patterns
 ---
 
-<br />
 {% for pattern in site.data.patterns %}
 
-<br />
+	<h3>{{pattern.name}}</h3>
+	<p>{{pattern.description}}</p>
+
+{% endfor %}
+
+
+
+
+<!--
+
 <table>
 	<tr>
 		<td colspan = 2><h3>{{pattern.name}}</h3></td>
@@ -27,4 +35,5 @@ title: patterns
 	<tr><td colspan = 2><p><img src = "{{pattern.image}}"></p></td></tr>
 	<tr><td><p><b>Video:</b></p></td><td><p>{{pattern.video}}</p></td></tr>
 </table>
-{% endfor %}
+
+-->
