@@ -31,11 +31,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-
 include: ['_pages']
-
 
 collections:
     patterns:
         output: true
-        permalink: /patterns/:path/
+        # permalink: /patterns/:path/
