@@ -1,6 +1,7 @@
 ---
-layout: root
-title: discussion
+layout: default
+title: About
+permalink: /
 ---
 
 <p> A level design pattern is a repeating configuration (of space and logic)

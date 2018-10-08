@@ -3,32 +3,7 @@ layout: default
 title: patterns
 ---
 
-<br />
 
 {% for pattern in site.data.patterns %}
-	<p><h3>{{pattern.name}}</h3>
-	<!-- <br />{{pattern.description}}</p> -->
+	<p><a href = "./{{pattern.url}}.json">{{pattern.name}}</a> {{pattern.description}}</p>
 {% endfor %}
-<!--
-{% for pattern in site.data.patterns %}
-<table>
-	<tr>
-		<td colspan = 2><h3>{{pattern.name}}</h3></td>
-	</tr>
-	<tr>
-		<td colspan = 2><p>{{pattern.description}}</p></td>
-	</tr>
-
-	<tr><td width = 20%><p><b>Examples:</b></p></td><td><p>{{pattern.examples}}</p></td></tr>
-	<tr><td><p><b>Aliases:</b></p></td><td><p>{{pattern.aliases}}</p></td></tr>
-	<tr><td><p><b>Classes:</b></p></td><td><p>{{pattern.classes}}</p></td></tr>
-	<tr><td><p><b>Principles:</b></p></td><td><p>{{pattern.principles}}</p></td></tr>
-
-	<tr><td><p><b>Date:</b></p></td><td><p>{{pattern.date}}</p></td></tr>
-	<tr><td><p><b>Source:</b></p></td><td><p>{{pattern.source}}</p></td></tr>
-	<tr><td colspan = 2><p>{{pattern.discussion}}</p></td></tr>
-	<tr><td><p><b>Link:</b></p></td><td><p>{{pattern.url}}</p></td></tr>
-	<tr><td colspan = 2><p><img src = "{{pattern.image}}"></p></td></tr>
-	<tr><td><p><b>Video:</b></p></td><td><p>{{pattern.video}}</p></td></tr>
-</table>
-{% endfor %} -->
