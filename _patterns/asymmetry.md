@@ -19,9 +19,3 @@
     date:        "01-01-1999"
     source:       ""
 ---
-
-{{page.name}}
-{{page.principles}}
-{{page.name}}
-{{page.name}}
-Asymmetrical level layouts are something.

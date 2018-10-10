@@ -1,8 +1,8 @@
 ---
     layout:         pattern
-
     name:         "Landmark"
     description:  "A distinctive visible feature. Players can see it from many places throughout the level. Provides a navigation anchor which players can use to orientate themselves or navigate towards."
+
     examples:     "City 17's Citadel. The Volcano in The Legend of Zelda: The Ocarina of Time. FarCry 3 desert island towers. Halo Towers shooting light. Halo's Halo Horizon."
     motivation:   "Navigation Aid"
     principles:   "Visibility Orientation"

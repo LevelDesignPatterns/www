@@ -43,7 +43,23 @@ a{
 
 a:hover{
 
- }
+}
 
 .container {
+    display: grid;
+    grid-template: none / 20vw auto;
+}
+
+.key {
+    font-size: 1.5vw;
+    padding: 0 0 1vw  0 ;
+    margin: 0;
+}
+
+.value {
+
+    font-size: 1.5vw;
+    padding: 0 0 1vw  0 ;
+    margin: 0;
+
 }
