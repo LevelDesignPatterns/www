@@ -10,12 +10,12 @@
     classes:      "Spatial"
     genres:       "Action Platformer"
     discussion:   ""
-    uri:          ""
-    image:        ""
+    image:        "../../assets/Bob-omb_Battlefield_64DS.png"
+    image_src:          ""
     video:        ""
 
     "authors":      "Butler, S."
-    "date":         "01-01-1999"
+    "date":         "01-10-2018"
     "source":       ""
 ---
 

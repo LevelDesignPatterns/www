@@ -5,12 +5,10 @@
 	<body>
 		{% include nav.html %}
 
-
-		<h3>{{page.name}}</h3>
-
+		<!-- <h3>{{page.name}}</h3> -->
 		<div class = "container">
-
-			<div class = "key">name</div><div class = "value">{{page.name}}</div>
+			<div class = "key"></div><div class = "value"><h3>{{page.name}}</h3></div>
+			<div class = "key"></div><div class = "value"><img class = "image" src = "{{page.image}}"></div>
 			<div class = "key">description</div><div class = "value">{{page.description}}</div>
 			<div class = "key">examples</div><div class = "value">{{page.examples}}</div>
 			<div class = "key">motivation</div><div class = "value">{{page.motivation}}</div>
@@ -19,12 +17,11 @@
 			<div class = "key">classes</div><div class = "value">{{page.classes}}</div>
 			<div class = "key">genres</div><div class = "value">{{page.genres}}</div>
 			<div class = "key">discussion</div><div class = "value">{{page.discussion}}</div>
-			<div class = "key">uri</div><div class = "value">{{page.uri}}</div>
-			<div class = "key">image</div><div class = "value"><img src = "{{page.image}}"></div>
 			<div class = "key">video</div><div class = "value">{{page.video}}</div>
 			<div class = "key">authors</div><div class = "value">{{page.authors}}</div>
 			<div class = "key">date</div><div class = "value">{{page.date}}</div>
 			<div class = "key">source</div><div class = "value">{{page.source}}</div>
+			<div class = "key">image src</div><div class = "value">{{page.image_src}}</a></div>
 
 			<article>
 				<p>{{ content }}</p>
@@ -32,6 +29,10 @@
 
 			{% include footer.html %}
 		</div>
+
+		<p><a href="/">back to list</a></p>
+
+
 	</body>
 
 </html>

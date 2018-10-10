@@ -5,14 +5,16 @@
 
     examples:     ""
     motivation:   ""
-    principles:   "Flow"
-    aliases:      "Mosh Pit"
-    classes:      "Spatial, Aspect, Principle"
+    principles:   ""
+    aliases:      ""
+    classes:      ""
     genres:       "FPS, Team DM, Capture the Flag, King of the Hill"
 
+
+    image_src:    "http://halo.wikia.com/wiki/Blood_Gulch"
+    image:        "../../assets/Blood_gulch.jpg"
+
     discussion:   ""
-    uri:          ""
-    image:        ""
     video:        ""
 
     authors:      "Butler, S."
