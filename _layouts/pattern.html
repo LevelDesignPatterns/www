@@ -3,11 +3,12 @@
 	{% include head.html %}
 
 	<body>
-		{% include nav.html %}
-
-		<!-- <h3>{{page.name}}</h3> -->
+		<h3>{{page.name}}</h3>
 		<div class = "container">
-			<div class = "key"></div><div class = "value"><h3>{{page.name}}</h3></div>
+
+			<!-- <div class = "key"></div><div class = "value">{% include head.html %}</div> -->
+			<!-- <div class = "key"></div><div class = "value"><h3>{{page.name}}</h3></div> -->
+
 			<div class = "key"></div><div class = "value"><img class = "image" src = "{{page.image}}"></div>
 			<div class = "key">description</div><div class = "value">{{page.description}}</div>
 			<div class = "key">examples</div><div class = "value">{{page.examples}}</div>
@@ -27,11 +28,11 @@
 				<p>{{ content }}</p>
 			</article>
 
-			{% include footer.html %}
+
 		</div>
 
-		<p><a href="/">back to list</a></p>
-
+		<p><a href="/">index</a></p>
+		{% include footer.html %}
 
 	</body>
 
