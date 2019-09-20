@@ -1,6 +1,4 @@
 
-const patterns = require('./patterns')
-const writings = require('./writings')
 
 function render_index(database) {
   database.sort(function (a, b) {

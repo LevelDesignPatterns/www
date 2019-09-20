@@ -1,4 +1,4 @@
-[
+let patterns = [
   {
     "ID": "Asymmetry",
     "name": "Asymmetry",
@@ -20,7 +20,7 @@
       "King of the Hill"
     ],
     "examples": "Many of the Team Fortress Levels Exhibit This Property.",
-    "image": "../assets/Blood_gulch.jpg",
+    "image": "./assets/Blood_gulch.jpg",
     "image_credit": "http://halo.wikia.com/wiki/Blood_Gulch",
     "authors": "Butler, S.",
     "date": "01-01-1999",
@@ -107,7 +107,7 @@
     "genres": "Action Platformer",
     "discussion": "",
     "image_src": "",
-    "image": "../assets/Bob-omb_Battlefield_64DS.png",
+    "image": "./assets/Bob-omb_Battlefield_64DS.png",
     "references": ""
   },
   {
