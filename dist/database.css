@@ -1,0 +1,87 @@
+body {
+    margin:     auto;
+    max-width: 900px;
+    font-size: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  /* color: dark-blue; */
+
+  padding-top: 1vw;
+  /* line-height: 1.5; */
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.db {
+  /* float: left; */
+}
+
+.doc {
+  float: left;
+  width: 100%;
+  padding-top: 1vw;
+  padding-bottom: 3vw;
+  margin: 0;
+}
+
+.fieldname {
+  font-weight: bold;
+  width: 25%;
+  float: left;
+}
+
+.fielddata {
+  width: 75%;
+  float: left;
+}
+
+a {
+  /* text-decoration: none; */
+  color: grey;
+}
+
+a[href]:hover {
+    /* text-decoration: underline; */
+}
+
+a[href]:active {
+}
+
+.container {
+    padding: 1em;
+}
+
+footer{
+  padding: 3em 1em 1em 1em;
+}
+
+img{
+  width:100%
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    color: white;
+    background-color: black;
+	   font-size:	32px;
+  }
+
+  .db {
+    width: 100%;
+  }
+
+  .doc {
+    width: 100%;
+  }
+
+  .fieldname {
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .fielddata {
+    width: 100%;
+  }
+
+}
