@@ -7,18 +7,10 @@ let patterns = [
     "principles": [
       "Spatial"
     ],
-    "scale": [
-      "Large"
-    ],
-    "relationships": [],
-    "genres": [
-      "Shooter"
-    ],
-    "gamemodes": [
-      "Team DM",
-      "Capture The Flag",
-      "King of the Hill"
-    ],
+    "scale": [ "Large" ],
+    "related": ["Symmetry"],
+    "genres": [ "Shooter" ],
+    "gamemodes": [ "Team DM", "Capture The Flag", "King of the Hill" ],
     "examples": "Many of the Team Fortress Levels Exhibit This Property.",
     "image": "./assets/Blood_gulch.jpg",
     "image_credit": "http://halo.wikia.com/wiki/Blood_Gulch",
@@ -37,7 +29,7 @@ let patterns = [
     "scale": [
       "Large"
     ],
-    "relationships": [],
+    "related": [],
     "genres": [
     ],
     "gamemodes": [
@@ -62,7 +54,7 @@ let patterns = [
     "examples": "City 17's Citadel. The Volcano in The Legend of Zelda: The Ocarina of Time. FarCry 3 desert island towers. Halo Towers shooting light. Halo's Halo Horizon.",
     "image": "https:\/\/upload.wikimedia.org/wikipedia\/en\/b\/bb\/HalfLife2_City17_TrainStationSquare.jpg",
     "image_credit": "",
-    "authors": "Butler, S.",
+    "contributors": ["Sean Butler"],
     "date": "01-10-2018",
     "source": ""
   },
@@ -75,14 +67,33 @@ let patterns = [
     "variations": "",
     "principles": [
       "Navigation",
-      "Visibility",
-      "Orientation"
     ],
+    "related": ["Misleading Rewards"],
     "aliases": "",
     "classes": "Spatial, Navigation",
     "genres": "FPS, Action Platformer",
-    "discussion": "Perhaps the most clear and obvious modern example is in the citadel in City 17 from Halflife. This also serves as a destination as well as a navigation landmark, is visually distinctive in silhouette, size, colour, etc"
+    "discussion": "",
+    "contributors": ["Sean Butler"]
   },
+
+  {
+    "ID": "MisleadingRewards",
+    "name": "Misleading Rewards",
+    "description": "Leading collectables are an arrangement of collectables visible to the player which serve to guide the player along a specific path or in a specific direction.",
+    "motivation": "Provides a navigation drive which designers can use to pull the player.",
+    "examples": "Pacman pills distributed throughout the maze which cause the player to explore all corridors.",
+    "variations": "",
+    "principles": [
+      "Navigation",
+    ],
+    "related": ["Leading Collectables"],
+    "aliases": "",
+    "classes": "Spatial, Navigation",
+    "genres": "FPS, Action Platformer",
+    "discussion": "",
+    "contributors": ["Luke Eyre", "Matthew Brebner"]
+  },
+
   {
     "ID": "SafeSpawn",
     "name": "Safe Spawn",
@@ -95,6 +106,7 @@ let patterns = [
     "genres": "FPS, Platformer, RPG, (All?)",
     "discussion": ""
   },
+
   {
     "ID": "Spiral",
     "name": "Spiral",
@@ -110,6 +122,7 @@ let patterns = [
     "image": "./assets/Bob-omb_Battlefield_64DS.png",
     "references": ""
   },
+
   {
     "ID": "ParallelRoutes",
     "name": "Parallel Routes",
@@ -126,6 +139,7 @@ let patterns = [
     "video": "",
     "source": ""
   },
+
   {
     "ID": "ChokePoint",
     "name": "Choke Point",
@@ -142,6 +156,7 @@ let patterns = [
     "video": "",
     "source": ""
   },
+
   {
     "ID": "CosmeticDifferences",
     "name": "Cosmetic Differences",
@@ -157,6 +172,7 @@ let patterns = [
     "image": "",
     "video": ""
   },
+
   {
     "ID": "CampingSpot",
     "name": "Camping Spot",
@@ -164,15 +180,14 @@ let patterns = [
     "examples": "",
     "motivation": "",
     "aliases": "",
-    "principles": [
-      "Topological, Spatial"
-    ],
+    "principles": [ "Topological, Spatial" ],
     "genres": "FPS",
     "discussion": "",
     "image_src": "",
     "image": "",
     "video": ""
   },
+
   {
     "ID": "TerracedCanyon",
     "name": "Terraced Canyon",
@@ -180,8 +195,24 @@ let patterns = [
     "examples": "",
     "motivation": "",
     "aliases": "",
+    "principles": [ "Topological, Spatial" ],
+    "genres": [ "All" ],
+    "discussion": "",
+    "image_src": "",
+    "image": "",
+    "video": "",
+    "contributors": ["Sean Butler"]
+    "show": true
+  },
+  {
+    "ID": "GuidingLight",
+    "name": "Guiding Light",
+    "description": "use of light and darkness to guide players in a direction while still allowing for player agency/choice.",
+    "examples": "The Witcher 3: Wild Hunt. Bioshock.",
+    "motivation": "",
+    "aliases": "",
     "principles": [
-      "Topological, Spatial"
+      ""
     ],
     "genres": [
       "All"
@@ -189,6 +220,7 @@ let patterns = [
     "discussion": "",
     "image_src": "",
     "image": "",
-    "video": ""
-  }
+    "video": "",
+    "contributors": ["Luke Eyre", "Matthew Brebner"]
+  } 
 ]
