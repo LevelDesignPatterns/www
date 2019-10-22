@@ -202,8 +202,7 @@ let patterns = [
     "image": "",
     "video": "",
     "contributors": ["Sean Butler"]
-    "show": true
-  },
+    },
   {
     "ID": "GuidingLight",
     "name": "Guiding Light",
